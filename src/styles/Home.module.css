@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.greeting {
+  color: var(--white-title);
+  font-size: var(--text-size);
+  font-family: var(--fire);
+}
+.name {
+  font-size: var(--name-title);
+  font-family: var(--fire);
+  color: var(--white-title);
+  font-weight: 400;
+  line-height: normal;
+  font-style: normal;
+}
+.role {
+  font-family: var(--fire);
+  color: var(--blue-title);
+  font-size: var(--des-title);
+}
+.Home_section{
+    height:100vh;
+    align-items: center;
+}
+.hero_img{
+  width:70%;
+
+}
+.number{
+  color:var(--text-color)
+}
+.datatype{
+  color:var(--blue-title)
+}
+.variable{
+  color:var(--variable-name)
+}
+.data{
+  color:var(--data-color)
+}
+
