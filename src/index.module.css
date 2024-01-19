@@ -29,6 +29,10 @@ html {
   cursor: none;
 }
 
+.layout {
+  height: 100vh;
+}
+
 .cursor {
   z-index: 1000;
   border: 0.2rem solid white;

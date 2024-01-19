@@ -3,11 +3,12 @@ import Navbar from "../Shared/Navbar";
 import Router from "../Routes/Route";
 import Footer from "../Shared/Footer";
 import Cursor from "../Components/Cursor";
+import styles from "../index.module.css";
 
 const Layout = () => {
   return (
     <Fragment>
-       <div className="d-flex flex-column justify-content-between">
+       <div className={`${styles.layout} d-flex flex-column justify-content-between  `}>
        
       <Navbar />
       <Cursor/>

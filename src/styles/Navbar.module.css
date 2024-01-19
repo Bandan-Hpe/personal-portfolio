@@ -8,7 +8,6 @@
   line-height: normal;
 }
 .logo {
-  border-right: 1px solid #1e2d3d;
   padding: 0 1rem;
   height: 100%;
   display: flex;
@@ -30,7 +29,6 @@
 
 }
 .nav_items {
-  border-right: 1px solid #1e2d3d;
   display: flex;
   align-items: center;
   height: 100%;
@@ -51,4 +49,9 @@
   padding: 0 30px;
   text-decoration: none;
   color: var(--text-color);
+}
+
+@media screen and (max-width: 768px) {
+  
+  
 }

@@ -10,37 +10,32 @@ const Navbar = () => {
           <div className={`${styles.logo} col-md-3 `}>
             <h5 className={`${styles.logo_img} mb-0`}>Bandan</h5>
           </div>
-
-          <ul className={`${styles.nav_list}   col-md-8 mb-0 p-0 `}>
-            <li className={styles.nav_items}>
-              <NavLink to="/" className={styles.nav_links}>
-                _hello
-              </NavLink>
-            </li>
-            <li className={styles.nav_items}>
-              <NavLink to="/about" className={styles.nav_links}>
-                _about-me
-              </NavLink>
-            </li>
-            <li className={styles.nav_items}>
-              <NavLink to="/project" className={styles.nav_links}>
-                _project
-              </NavLink>
-            </li>
-            <li className={`${styles.nav_items} `}>
-              <NavLink to="/project" className={`${styles.nav_links} `}>
-                _contact-me
-              </NavLink>
-            </li>
-          </ul>
+          <div className="col-md-8 mb-0 p-0">
+            <ul className={`${styles.nav_list}    `}>
+              <li className={styles.nav_items}>
+                <NavLink to="/" className={styles.nav_links}>
+                  _hello
+                </NavLink>
+              </li>
+              <li className={styles.nav_items}>
+                <NavLink to="/about" className={styles.nav_links}>
+                  _about-me
+                </NavLink>
+              </li>
+              <li className={styles.nav_items}>
+                <NavLink to="/project" className={styles.nav_links}>
+                  _project
+                </NavLink>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className={` col-2  mb-0 p-0 d-flex justify-content-end`}>
-        <NavLink to="/project" className={`${styles.nav_links} `}>
-          _contact-me
-        </NavLink>
+          <NavLink to="/project" className={`${styles.nav_links} `}>
+            _contact-me
+          </NavLink>
+        </div>
       </div>
-      </div>
-     
     </Fragment>
   );
 };

@@ -1,0 +1,48 @@
+.logo_img {
+  font-family: var(--fire);
+  color: var(--text-color);
+
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+.logo {
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Navbar {
+  height: 56.191px;
+  border: 1px solid #1e2d3d;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+.nav_items {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.nav_items_contact {
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav_links_footer {
+  padding: 0 10px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.nav_links_footer svg {
+  font-size: 1.2rem;
+}

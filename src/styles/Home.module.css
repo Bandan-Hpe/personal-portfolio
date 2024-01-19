@@ -20,24 +20,43 @@
   color: var(--blue-title);
   font-size: var(--des-title);
 }
-.Home_section{
-    height:100vh;
-    align-items: center;
+.Home_section {
+  align-items: center;
 }
-.hero_img{
-  width:70%;
-
+.hero_img {
+  width: 70%;
 }
-.number{
-  color:var(--text-color)
+.number {
+  color: var(--text-color);
 }
-.datatype{
-  color:var(--blue-title)
+.datatype {
+  color: var(--blue-title);
 }
-.variable{
-  color:var(--variable-name)
+.variable {
+  color: var(--variable-name);
 }
-.data{
-  color:var(--data-color)
+.data {
+  color: var(--data-color);
 }
 
+.bg1 svg {
+ 
+  fill: #43d9ad;
+    width: 500px;
+    filter: blur(87px);
+    position: absolute;
+    transform: rotate(-94.305deg);
+    top: -150px;
+    left: -80px;
+}
+.bg2 svg {
+  transform: rotate(13.508deg);
+  flex-shrink: 0;
+  fill: #4d5bce;
+  width: 500px;
+  top: 106px;
+  left: 216px;
+
+  filter: blur(87px);
+  position: absolute;
+}
