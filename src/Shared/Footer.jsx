@@ -11,7 +11,7 @@ const Footer = () => {
         <div className={`${styles.Navbar} `}>
           <div className="d-flex align-content-center col-md-6 ">
             <div className={`${styles.logo}  `}>
-              <h5 className={`${styles.logo_img} mb-0`}>Find me in </h5>
+              <h5 className={`${styles.logo_img} mb-0`}>Find me in :- </h5>
             </div>
 
             <ul className={`${styles.nav_list}    mb-0 p-0 `}>
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className={`${styles.author} col-md-6  d-flex justify-content-end`}>
-            <p>&#169;	Designed and Built by <span>Bandan</span></p>
+            <p>&#169;	Designed and Built by <span className={styles.nm}>Bandan</span></p>
           </div>
        
         </div>

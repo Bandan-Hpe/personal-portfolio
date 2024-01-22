@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from "react";
 import styles from "../styles/Navbar.module.css";
 import { NavLink } from "react-router-dom";
-import openbar from "/public/assets/images/open.png";
-import closebar from "/public/assets/images/close.png";
+import openbar from "/assets/images/open.png";
+import closebar from "/assets/images/close.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -24,27 +24,27 @@ const Navbar = () => {
             </button>
             <ul className={`${styles.nav_list} ${open ? styles.open : ""} p-0`}>
               <li className={styles.nav_items}>
-                <NavLink to="/" className={styles.nav_links}>
+                <NavLink to="/"  onClick={toggleMenu} className={styles.nav_links} activeClassName={styles.active}>
                   _hello
                 </NavLink>
               </li>
               <li className={styles.nav_items}>
-                <NavLink to="/about" className={styles.nav_links}>
+                <NavLink to="/about" className={styles.nav_links} onClick={toggleMenu} activeClassName={styles.active}>
                   _about-me
                 </NavLink>
               </li>
-              <li className={styles.nav_items}>
-                <NavLink to="/skill" className={styles.nav_links}>
+              <li className={styles.nav_items} >
+                <NavLink to="/skill" className={styles.nav_links} onClick={toggleMenu} activeClassName={styles.active}>
                   _Skills
                 </NavLink>
               </li>
               <li className={styles.nav_items}>
-                <NavLink to="/project" className={styles.nav_links}>
+                <NavLink to="/project" className={styles.nav_links} onClick={toggleMenu} activeClassName={styles.active}>
                   _project
                 </NavLink>
               </li>
               <li className={styles.nav_items}>
-                <NavLink to="/contact" className={styles.nav_links}>
+                <NavLink to="/contact" className={styles.nav_links} onClick={toggleMenu} activeClassName={styles.active}>
                   _contact-me
                 </NavLink>
               </li>

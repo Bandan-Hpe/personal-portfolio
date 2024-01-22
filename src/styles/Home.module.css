@@ -10,7 +10,7 @@
 .name {
   font-size: var(--name-title);
   font-family: var(--fire);
-  color: var(--white-title);
+  color: var(--variable-name);
   font-weight: 400;
   line-height: normal;
   font-style: normal;

@@ -35,7 +35,7 @@ html {
 
 .cursor {
   z-index: 1000;
-  border: 0.2rem solid white;
+  border: 0.2rem solid var(--variable-name);
   height: 1rem;
   width: 1rem;
   border-radius: 50%;
@@ -47,6 +47,9 @@ html {
   mix-blend-mode: difference;
   animation: cursors 0.4s ease-in-out infinite;
   animation-direction: alternate;
+}
+a{
+  cursor: none;
 }
 p {
   margin-top: 0;

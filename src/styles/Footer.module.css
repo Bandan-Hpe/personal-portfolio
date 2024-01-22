@@ -1,8 +1,7 @@
 .logo_img {
   font-family: var(--fire);
-  color: var(--text-color);
-
-  font-size: 12px;
+  color: var(--variable-name);
+  font-size:16px;
   font-style: normal;
   font-weight: 450;
   line-height: normal;
@@ -24,6 +23,9 @@
   padding:0 10px;
   background-color: var(--bg-color);
 
+}
+.nm{
+  color:var(--variable-name)
 }
 .nav_list {
   display: flex;
@@ -50,19 +52,34 @@
 }
 .nav_links_footer svg {
   font-size: 1.2rem;
+  transition: all .4s;
+
+  
+}
+.nav_links_footer svg:hover {
+color:var(--variable-name)  ;
+transform: rotate(360deg);
+
 }
 .author p{
   color:var(--text-color);
-  font-size: 12px;
 }
+
 
 @media  (max-width: 668px) {
   .nav_links_footer svg {
     font-size: .9rem;
   }
+  .logo_img{
+    font-size:.9rem
+  }
   .Navbar{
     flex-direction: column;
     
+  }
+  .author p{
+    color:var(--text-color);
+    font-size: 12px;
   }
   .Navbar p{
     padding:5px;
