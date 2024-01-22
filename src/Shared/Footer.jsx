@@ -16,23 +16,24 @@ const Footer = () => {
 
             <ul className={`${styles.nav_list}    mb-0 p-0 `}>
               <li className={styles.nav_items}>
-                <NavLink to="/" className={styles.nav_links_footer}>
+                <NavLink to="https://github.com/Bandan-Hpe" target="_blank" className={styles.nav_links_footer}>
                   <FaGithub />
                 </NavLink>
               </li>
               <li className={styles.nav_items}>
-                <NavLink to="/about" className={styles.nav_links_footer}>
+                <NavLink to="https://www.linkedin.com/in/bandan-pradhan/" target="_blank" className={styles.nav_links_footer}>
                   <FaLinkedin />
                 </NavLink>
               </li>
               <li className={styles.nav_items}>
-                <NavLink to="/project" className={styles.nav_links_footer}>
+                <NavLink to="https://www.instagram.com/bandan_pradhan" target="_blank" className={styles.nav_links_footer}>
                   <FaInstagram />
                 </NavLink>
               </li>
               <li className={`${styles.nav_items} `}>
                 <NavLink
-                  to="/project"
+                  to="https://www.facebook.com/bandan.pradhan.52/"
+                  target="_blank"
                   className={`${styles.nav_links_footer} `}
                 >
                   <FaFacebook />

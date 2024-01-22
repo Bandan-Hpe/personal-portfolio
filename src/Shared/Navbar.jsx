@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from "react";
 import styles from "../styles/Navbar.module.css";
 import { NavLink } from "react-router-dom";
-import openbar from "../../public/assets/images/open.png";
-import closebar from "../../public/assets/images/close.png";
+import openbar from "/public/assets/images/open.png";
+import closebar from "/public/assets/images/close.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -31,6 +31,11 @@ const Navbar = () => {
               <li className={styles.nav_items}>
                 <NavLink to="/about" className={styles.nav_links}>
                   _about-me
+                </NavLink>
+              </li>
+              <li className={styles.nav_items}>
+                <NavLink to="/skill" className={styles.nav_links}>
+                  _Skills
                 </NavLink>
               </li>
               <li className={styles.nav_items}>
