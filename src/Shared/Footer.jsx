@@ -8,13 +8,13 @@ const Footer = () => {
   return (
     <Fragment>
       <Fragment>
-        <div className={styles.Navbar}>
-          <div className="d-flex align-content-center col-10">
-            <div className={`${styles.logo} col-3 `}>
+        <div className={`${styles.Navbar} `}>
+          <div className="d-flex align-content-center col-md-6 ">
+            <div className={`${styles.logo}  `}>
               <h5 className={`${styles.logo_img} mb-0`}>Find me in </h5>
             </div>
 
-            <ul className={`${styles.nav_list}   col-md-7 mb-0 p-0 `}>
+            <ul className={`${styles.nav_list}    mb-0 p-0 `}>
               <li className={styles.nav_items}>
                 <NavLink to="/" className={styles.nav_links_footer}>
                   <FaGithub />
@@ -40,11 +40,10 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className={` col-2  mb-0 p-0 d-flex justify-content-end`}>
-            <NavLink to="/project" className={`${styles.nav_links_footer} `}>
-              _contact-me
-            </NavLink>
+          <div className={`${styles.author} col-md-6  d-flex justify-content-end`}>
+            <p>&#169;	Designed and Built by <span>Bandan</span></p>
           </div>
+       
         </div>
       </Fragment>
     </Fragment>

@@ -22,6 +22,7 @@
 }
 .Home_section {
   align-items: center;
+  height: 100vh;
 }
 .hero_img {
   width: 70%;
@@ -40,23 +41,94 @@
 }
 
 .bg1 svg {
- 
   fill: #43d9ad;
-    width: 500px;
-    filter: blur(87px);
-    position: absolute;
-    transform: rotate(-94.305deg);
-    top: -150px;
-    left: -80px;
+  width: 400px;
+  filter: blur(87px);
+  position: absolute;
+  transform: rotate(-94.305deg);
+  top: -150px;
+  left: -80px;
 }
 .bg2 svg {
   transform: rotate(13.508deg);
   flex-shrink: 0;
   fill: #4d5bce;
-  width: 500px;
+  width: 400px;
   top: 106px;
   left: 216px;
 
-  filter: blur(87px);
+  filter: blur(57px);
   position: absolute;
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1328px) {
+  .bg1 svg {
+    width: 250px;
+    top: -150px;
+    left: -80px;
+  }
+
+  .bg2 svg {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  .greeting {
+    font-size: 15px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .role {
+    font-size: 20px;
+  }
+  .bg2 svg {
+    width: 100px;
+    top: 178px;
+  }
+}
+
+@media screen and (min-width: 558px) and (max-width: 768px) {
+  .name {
+    font-size: 35px;
+  }
+  .role {
+    font-size: 20px;
+  }
+  .content_details p {
+    font-size: 14px;
+  }
+  .bg2 svg {
+    width: 100px;
+    top: 178px;
+  }
+  .bg1 svg {
+    width: 250px;
+    top: -150px;
+    left: -80px;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .name {
+    font-size: 32px;
+  }
+  .role {
+    font-size: 20px;
+  }
+  .bg2 svg {
+    width: 100px;
+    top: -178px;
+    display: none;
+  }
+  .bg1 svg {
+    width: 100px;
+    top: -150px;
+    left: -80px;
+    display: none;
+  }
+  .content_details p {
+    font-size: 12px;
+  }
 }

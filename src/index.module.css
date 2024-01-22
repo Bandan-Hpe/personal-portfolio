@@ -30,7 +30,7 @@ html {
 }
 
 .layout {
-  height: 100vh;
+  height: 100%;
 }
 
 .cursor {
@@ -48,6 +48,10 @@ html {
   animation: cursors 0.4s ease-in-out infinite;
   animation-direction: alternate;
 }
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem !important;
+}
 @keyframes cursors {
   0% {
     transform: scale(1);
@@ -58,3 +62,7 @@ html {
     box-shadow: 0px 0px 15px white;
   }
 }
+
+
+
+
