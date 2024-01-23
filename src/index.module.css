@@ -4,6 +4,12 @@
     url("/assets/Fonts/FiraCode-Regular.ttf") format("truetype");
   font-weight: normal;
 }
+@font-face {
+  font-family: "Creattion Demo";
+  src: local("Creattion Demo"),
+    url("/assets/Fonts/creattion-demo.regular.otf") format("opentype");
+  font-weight: normal;
+}
 
 :root {
   --bg-color: #011627;
@@ -54,6 +60,8 @@ a{
 p {
   margin-top: 0;
   margin-bottom: 0.5rem !important;
+  color:var(--text-color)
+
 }
 @keyframes cursors {
   0% {

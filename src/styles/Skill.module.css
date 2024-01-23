@@ -1,0 +1,20 @@
+
+
+.skills{
+    min-height:95vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .title {
+    color: white;
+    text-align: center;
+  }
+  .sub_title {
+    color: var(--text-color);
+    text-align: center;
+  }

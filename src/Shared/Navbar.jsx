@@ -24,27 +24,27 @@ const Navbar = () => {
             </button>
             <ul className={`${styles.nav_list} ${open ? styles.open : ""} p-0`}>
               <li className={styles.nav_items}>
-                <NavLink to="/"  onClick={toggleMenu} className={styles.nav_links} activeClassName={styles.active}>
+                <NavLink to="/"  onClick={toggleMenu} className={styles.nav_links} activeclassname={styles.active}>
                   _hello
                 </NavLink>
               </li>
               <li className={styles.nav_items}>
-                <NavLink to="/about" className={styles.nav_links} onClick={toggleMenu} activeClassName={styles.active}>
+                <NavLink to="/about" className={styles.nav_links} onClick={toggleMenu} activeclassname={styles.active}>
                   _about-me
                 </NavLink>
               </li>
               <li className={styles.nav_items} >
-                <NavLink to="/skill" className={styles.nav_links} onClick={toggleMenu} activeClassName={styles.active}>
+                <NavLink to="/skills" className={styles.nav_links} onClick={toggleMenu} activeclassname={styles.active}>
                   _Skills
                 </NavLink>
               </li>
               <li className={styles.nav_items}>
-                <NavLink to="/project" className={styles.nav_links} onClick={toggleMenu} activeClassName={styles.active}>
+                <NavLink to="/project" className={styles.nav_links} onClick={toggleMenu} activeclassname={styles.active}>
                   _project
                 </NavLink>
               </li>
               <li className={styles.nav_items}>
-                <NavLink to="/contact" className={styles.nav_links} onClick={toggleMenu} activeClassName={styles.active}>
+                <NavLink to="/contact" className={styles.nav_links} onClick={toggleMenu} activeclassname={styles.active}>
                   _contact-me
                 </NavLink>
               </li>
