@@ -17,8 +17,13 @@ const About = () => {
               <div className="col-md-6">
                 <p className="text-white">WHO I AM</p>
                 <p>
-                  I’m <span className={styles.name}>Bandan</span> Highly skilled
-                  and motivated full-stack engineer based in Hyderabad, India.
+                  I am <span className={styles.name}>Bandan</span>, a highly
+                  skilled and motivated full-stack engineer based in Hyderabad,
+                  India. With over two years of immersive experience, I
+                  specialize in React JS, Next JS, Typescript, and Node JS. My
+                  diverse portfolio includes successful contributions to
+                  E-commerce and CRM projects, reflecting my commitment to
+                  crafting seamless and innovative solutions.
                 </p>
                 <p className="text-white">WHO I DO</p>
                 <p>
@@ -43,7 +48,10 @@ const About = () => {
 
                 <p>
                   Feel free to reach out via{" "}
-                  <Link to="mailto:bandanpradhan456@gmail.com" className={styles.connect}>
+                  <Link
+                    to="mailto:bandanpradhan456@gmail.com"
+                    className={styles.connect}
+                  >
                     e-mail
                   </Link>
                   , or follow me on{" "}
@@ -75,7 +83,7 @@ const About = () => {
 
                 <p>Let's collaborate to build something great ,</p>
 
-                <p className={`${styles.sign} mb-3`}>Bandan Pradhan</p>
+                <p className={`${styles.sign} mb-5`}>Bandan Pradhan</p>
               </div>
               <div className="col-md-6 d-flex justify-content-center align-items-center">
                 <div className={`${styles.img} mb-5`}>

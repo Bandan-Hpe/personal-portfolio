@@ -36,7 +36,7 @@
   font-weight: 400;
   font-style: normal;
   transform: rotate(-12deg);
-
+margin-bottom: 5rem !important;
   position: relative;
 }
 .sign:after {
