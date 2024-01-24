@@ -42,21 +42,21 @@ const About = () => {
                 </p>
 
                 <p>
-                  Feel free to reach out via <Link to="" className={styles.connect}>e-mail</Link>, or follow me on <Link to="" className={styles.connect}>Instagram</Link>.
-                  Want to see where I’ve worked? Check out my <Link to="" className={styles.connect}>Resume</Link>, or Connect
-                  with me on <Link className={styles.connect} to="">LinkedIn</Link>.
+                  Feel free to reach out via <Link to="bandanpradhan456@gmail.com" className={styles.connect}>e-mail</Link>, or follow me on <Link to="https://www.instagram.com/bandan_pradhan" className={styles.connect}>Instagram</Link>.
+                  Want to see where I’ve worked? Check out my <Link to="/assets/images/BANDAN_PRADHAN.CV.pdf"  download className={styles.connect}>Resume</Link>, or Connect
+                  with me on <Link className={styles.connect} to="https://www.linkedin.com/in/bandan-pradhan/">LinkedIn</Link>.
                 </p>
 
 
                 <p>Let’s build something great,</p>
 
-                <p className={styles.sign}>Bandan Pradhan</p>
+                <p className={`${styles.sign} mb-3`}>Bandan Pradhan</p>
               </div>
               <div className="col-md-6 d-flex justify-content-center align-items-center">
 
 
 
-                <div className={styles.img}>
+                <div className={`${styles.img} mb-5`}>
                   {/* <img src={portrait} alt="" /> */}
 
                 </div>
