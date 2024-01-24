@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import styles from "../styles/About.module.css";
 import { Link } from "react-router-dom";
-import portrait from "/assets/images/portrait.jpg"
+import portrait from "/assets/images/portrait.jpg";
 
 const About = () => {
   return (
@@ -22,43 +22,64 @@ const About = () => {
                 </p>
                 <p className="text-white">WHO I DO</p>
                 <p>
-                  a seasoned full-stack developer with two years of immersive
-                  experience in the dynamic realm of web development. My
-                  expertise encompasses a robust skill set that includes React
+                  I bring over two years of immersive experience as a seasoned
+                  full-stack developer in the dynamic realm of web development.
+                  My expertise encompasses a robust skill set, including React
                   JS, Next JS, Typescript, and Node JS. Throughout my
-                  professional journey, I've actively contributed my skills to
-                  diverse projects, with a focus on crafting seamless and
+                  professional journey, I have actively contributed my skills to
+                  diverse projects, emphasizing the creation of seamless and
                   innovative solutions.
                 </p>
                 <p>
-                  My portfolio boasts a range of successful endeavors, from
+                  My portfolio showcases a range of successful endeavors, from
                   steering the development of E-commerce projects to
                   orchestrating the intricacies of CRM systems. Each project has
-                  not only honed my technical prowess but has also fostered a
-                  deep appreciation for the multifaceted nature of full-stack
+                  not only refined my technical prowess but has also deepened my
+                  appreciation for the multifaceted nature of full-stack
                   development. As I continue to navigate this ever-evolving
                   landscape, I am driven by a passion for creating impactful and
                   user-centric digital experiences.
                 </p>
 
                 <p>
-                  Feel free to reach out via <Link to="bandanpradhan456@gmail.com" className={styles.connect}>e-mail</Link>, or follow me on <Link to="https://www.instagram.com/bandan_pradhan" className={styles.connect}>Instagram</Link>.
-                  Want to see where I’ve worked? Check out my <Link to="/assets/images/BANDAN_PRADHAN.CV.pdf"  download className={styles.connect}>Resume</Link>, or Connect
-                  with me on <Link className={styles.connect} to="https://www.linkedin.com/in/bandan-pradhan/">LinkedIn</Link>.
+                  Feel free to reach out via{" "}
+                  <Link to="mailto:bandanpradhan456@gmail.com" className={styles.connect}>
+                    e-mail
+                  </Link>
+                  , or follow me on{" "}
+                  <Link
+                    to="https://www.instagram.com/bandan_pradhan"
+                    className={styles.connect}
+                  >
+                    Instagram
+                  </Link>
+                  . Want to see where I’ve worked? Check out my{" "}
+                  <Link
+                    to="/assets/images/BANDAN_PRADHAN.pdf"
+                    download
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.connect}
+                  >
+                    Resume
+                  </Link>
+                  , or Connect with me on{" "}
+                  <Link
+                    className={styles.connect}
+                    to="https://www.linkedin.com/in/bandan-pradhan/"
+                  >
+                    LinkedIn
+                  </Link>
+                  .
                 </p>
 
-
-                <p>Let’s build something great,</p>
+                <p>Let's collaborate to build something great ,</p>
 
                 <p className={`${styles.sign} mb-3`}>Bandan Pradhan</p>
               </div>
               <div className="col-md-6 d-flex justify-content-center align-items-center">
-
-
-
                 <div className={`${styles.img} mb-5`}>
                   {/* <img src={portrait} alt="" /> */}
-
                 </div>
               </div>
             </div>
