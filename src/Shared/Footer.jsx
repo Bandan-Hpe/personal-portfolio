@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className={`${styles.author} col-md-6  d-flex justify-content-end`}>
-            <p>&#169;	Designed and Built by <span className={styles.nm}>Bandan</span></p>
+            <p>&#169;	All Rights Reserved  | Designed and Built by <span className={styles.nm}>Bandan</span></p>
           </div>
        
         </div>
