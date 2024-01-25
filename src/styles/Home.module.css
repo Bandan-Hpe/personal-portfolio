@@ -26,6 +26,9 @@
 }
 .hero_img {
   width: 70%;
+  border: 5px  solid var(--variable-name);
+  border-radius: 20%;
+ 
 }
 .number {
   color: var(--text-color);
@@ -46,7 +49,7 @@
   filter: blur(87px);
   position: absolute;
   transform: rotate(-94.305deg);
-  top: -150px;
+  top: -80px;
   left: -80px;
 }
 .bg2 svg {
@@ -64,8 +67,9 @@
 @media screen and (min-width: 1080px) and (max-width: 1328px) {
   .bg1 svg {
     width: 250px;
-    top: -150px;
-    left: -80px;
+  top: 0px;
+    left: -65px;
+
   }
 
   .bg2 svg {
@@ -90,6 +94,9 @@
 }
 
 @media screen and (min-width: 558px) and (max-width: 768px) {
+  .hero_img{
+    margin-bottom:5rem;
+  }
   .name {
     font-size: 35px;
   }
@@ -111,6 +118,9 @@
 }
 
 @media screen and (max-width: 558px) {
+   .hero_img{
+    margin-bottom:5rem;
+  }
   .name {
     font-size: 32px;
   }

@@ -9,6 +9,14 @@
   justify-content: center;
   margin: 2rem 0;
 }
+
+.hero_img {
+  width: 70%;
+  border: 5px  solid var(--variable-name);
+  border-radius: 20%;
+  margin-bottom:5rem !important;
+ 
+}
 .title {
   color: white;
   text-align: center;
@@ -36,7 +44,7 @@
   font-weight: 400;
   font-style: normal;
   transform: rotate(-12deg);
-margin-bottom: 5rem !important;
+ margin-bottom: 9rem !important;
   position: relative;
 }
 .sign:after {

@@ -83,11 +83,11 @@ const About = () => {
 
                 <p>Let's collaborate to build something great ,</p>
 
-                <p className={`${styles.sign} mb-5`}>Bandan Pradhan</p>
+                <p className={`${styles.sign} `}>Bandan Pradhan</p>
               </div>
               <div className="col-md-6 d-flex justify-content-center align-items-center">
-                <div className={`${styles.img} mb-5`}>
-                  {/* <img src={portrait} alt="" /> */}
+              <div className={` ${styles.abt_img}mb-5 d-flex justify-content-center align-items-center`}>
+            <img src="/assets/images/portrait2.jpg" alt="bg-img" className={styles.hero_img} />
                 </div>
               </div>
             </div>

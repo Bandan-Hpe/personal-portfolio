@@ -51,7 +51,8 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-6 d-flex justify-content-center position-relative">
-            <img src={Background} alt="bg-img" className={styles.hero_img} />
+            <img src="/assets/images/portrait2.jpg" alt="bg-img" className={styles.hero_img} />
+
             <div className={styles.bg1}>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 864 784">
                 <g opacity="0.4" filter="url(#filter0_f_64_1236)">
