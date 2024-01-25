@@ -40,7 +40,7 @@ const Navbar = () => {
               </li>
               <li className={styles.nav_items}>
                 <NavLink to="/project" className={styles.nav_links} onClick={toggleMenu} activeclassname={styles.active}>
-                  _project
+                  _projects
                 </NavLink>
               </li>
               <li className={styles.nav_items}>

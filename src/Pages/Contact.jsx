@@ -24,8 +24,8 @@ const Contact = () => {
         (result) => {
           Swal.fire({
             icon: "success",
-            title: "Form Submitted Successfully!",
-            text: "Thank you for submitting the form.",
+            title: "Requirement Submitted Successfully!",
+            text: "Thank you for Contacting me .",
           });
           form.current.reset();
           setButtonText("Submit");
@@ -44,7 +44,7 @@ const Contact = () => {
             Let's collaborate to build something great ,
           </p>
         </div>
-        <div className={`${styles.Form_section} container`}>
+        <div className={`${styles.Form_section} container mb-5`}>
             <div className="d-flex gap-5 align-items-center ">
               <div className={`${styles.btn} d-flex  `}>
               <span className={styles.color_point}> </span>
