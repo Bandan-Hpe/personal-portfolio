@@ -57,8 +57,8 @@ const Contact = () => {
             </div>
             <div className={styles.form}>
 
-            <form class="row g-3" ref={form} onSubmit={sendEmail}>
-                <div class="col-md-6">
+            <form className="row g-3" ref={form} onSubmit={sendEmail}>
+                <div className="col-md-6">
                   <label className={`${styles.label} form-label`}>Full Name</label>
                   <input
                     type="text"

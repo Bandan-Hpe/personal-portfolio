@@ -1,11 +1,6 @@
 .logo_img {
-  font-family: var(--fire);
-  color: var(--variable-name);
-
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 450;
-  line-height: normal;
+  width:100px;
+  height:100px
 }
 .active {
   color: var(--variable-name) !important;
@@ -16,7 +11,7 @@
   align-items: center;
 }
 .Navbar {
-  height: 56.191px;
+  height: 70.191px;
   border: 1px solid #1e2d3d;
   display: flex;
   align-items: center;

@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className={styles.Navbar}>
         <div className={`d-flex align-content-center col-12 ${styles.nav_menu}`}>
           <div className={`${styles.logo} col-md-3 `}>
-            <h5 className={`${styles.logo_img} mb-0`}>Bandan</h5>
+            <img className={`${styles.logo_img} mb-0`} src="/assets/images/logo.png"/>
           </div>
           <div className="col-md-8 mb-0 p-0   d-flex justify-content-end">
             <button className={styles.nav_btn} onClick={toggleMenu}>
@@ -24,7 +24,7 @@ const Navbar = () => {
             </button>
             <ul className={`${styles.nav_list} ${open ? styles.open : ""} p-0`}>
               <li className={styles.nav_items}>
-                <NavLink to="/"  onClick={toggleMenu} className={styles.nav_links} activeclassname={styles.active}>
+                <NavLink to="/"  onClick={toggleMenu} className={styles.nav_links } activeclassname={styles.active}>
                   _hello
                 </NavLink>
               </li>

@@ -43,7 +43,7 @@ const Project = () => {
           <p className={styles.sub_title}>Projects and ideas I’ve worked on </p>
         </div>
 
-        <div className="container d-flex flex-wrap justify-content-center gap-5 mb-5">
+        <div  className={`${styles.work} container d-flex flex-wrap justify-content-center gap-5`}>
           {data.map((item,index) => {
             return (
               <div className={styles.project_card} key={index}>
