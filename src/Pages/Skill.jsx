@@ -146,7 +146,7 @@ const Skill = () => {
           <h1 className={styles.title}>Dev Tools </h1>
           
         </div>
-          <div className=" d-flex flex-wrap  justify-content-center tools-container gap-5">
+          <div className={`${styles.tools_container} d-flex flex-wrap  justify-content-center  gap-5`}>
             <div className={`${styles.tools_card}    d-flex flex-column `}>
               <img src="/assets/images/git.png" alt=""  className={styles.tools}/>
               <p className="ex-para">Git</p>
