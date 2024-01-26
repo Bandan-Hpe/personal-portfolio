@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className={styles.Navbar}>
         <div className={`d-flex align-content-center col-12 ${styles.nav_menu}`}>
           <div className={`${styles.logo} col-md-3 `}>
-            <img className={`${styles.logo_img} mb-0`} src="/assets/images/logo.png"/>
+            <img className={`${styles.logo_img} mb-0`} src="/assets/images/logo.png" alt="logo"/>
           </div>
           <div className="col-md-8 mb-0 p-0   d-flex justify-content-end">
             <button className={styles.nav_btn} onClick={toggleMenu}>
