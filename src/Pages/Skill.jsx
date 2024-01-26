@@ -140,7 +140,7 @@ const Skill = () => {
            
           </div>
         </div>
-        <div className="container mt-5 mb-5">
+        <div className="container mt-5 ">
 
         <div className={styles.header}>
           <h1 className={styles.title}>Dev Tools </h1>

@@ -44,7 +44,7 @@ const Contact = () => {
             Let's collaborate to build something great ,
           </p>
         </div>
-        <div className={`${styles.Form_section} container mb-5`}>
+        <div className={`${styles.Form_section} container `}>
             <div className="d-flex gap-5 align-items-center ">
               <div className={`${styles.btn} d-flex  `}>
               <span className={styles.color_point}> </span>

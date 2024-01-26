@@ -24,6 +24,7 @@
   background-color: var(--bg-color);
   position: fixed;
   bottom: 0;
+  z-index:999;
 
 }
 .nm{
