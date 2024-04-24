@@ -8,7 +8,7 @@ const About = () => {
     <Fragment>
       <div className={styles.about}>
         <div className={styles.header}>
-          <h1 className={styles.title}>A little bit about me </h1>
+          <h1 className={styles.title}>Little bit about me </h1>
           <p className={styles.sub_title}>Who i am and what i do </p>
         </div>
         <div className={styles.content}>
@@ -25,9 +25,9 @@ const About = () => {
                   E-commerce and CRM projects, reflecting my commitment to
                   crafting seamless and innovative solutions.
                 </p>
-                <p className="text-white">WHO I DO</p>
+                <p className="text-white">WHAT I DO</p>
                 <p>
-                  I bring over two years of immersive experience as a seasoned
+                  I bring over 2+ of immersive experience as a seasoned
                   full-stack developer in the dynamic realm of web development.
                   My expertise encompasses a robust skill set, including React
                   JS, Next JS, Typescript, and Node JS. Throughout my
@@ -63,7 +63,7 @@ const About = () => {
                   </Link>
                   . Want to see where I’ve worked? Check out my{" "}
                   <Link
-                    to="/assets/images/BANDAN_PRADHAN.pdf"
+                    to="/assets/images/BANDAN_PRADHAN_CV.pdf"
                     download
                     target="_blank"
                     rel="noopener noreferrer"
@@ -86,8 +86,14 @@ const About = () => {
                 <p className={`${styles.sign} `}>Bandan Pradhan</p>
               </div>
               <div className="col-md-6 d-flex justify-content-center align-items-center">
-              <div className={` ${styles.abt_img}mb-5 d-flex justify-content-center align-items-center`}>
-            <img src="/assets/images/portrait2.jpg" alt="bg-img" className={styles.hero_img} />
+                <div
+                  className={` ${styles.abt_img}mb-5 d-flex justify-content-center align-items-center`}
+                >
+                  <img
+                    src="/assets/images/portrait2.jpg"
+                    alt="bg-img"
+                    className={styles.hero_img}
+                  />
                 </div>
               </div>
             </div>
