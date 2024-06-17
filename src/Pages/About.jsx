@@ -27,7 +27,7 @@ const About = () => {
                 </p>
                 <p className="text-white">WHAT I DO</p>
                 <p>
-                  I bring over 2+ of immersive experience as a seasoned
+                  I bring over 3 of immersive experience as a seasoned
                   full-stack developer in the dynamic realm of web development.
                   My expertise encompasses a robust skill set, including React
                   JS, Next JS, Typescript, and Node JS. Throughout my
